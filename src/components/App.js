@@ -12,7 +12,9 @@ class App extends React.Component {
   onNumberSubmit = async (n) => {
     this.setState({ loading: true });
     try {
-      const response = await axios.get(`http://localhost:3001/${n}`);
+      const response = await axios.get(
+        `https://tttprojectapp.herokuapp.com/${n}`
+      );
       this.setState({
         resData: response.data,
         resStatus: true,
