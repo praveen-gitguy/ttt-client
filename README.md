@@ -8,7 +8,7 @@ Go to https://ttt-rust.vercel.app to access the application.
 
 Link: https://tttprojectapp.herokuapp.com/
 
-This api takes a number as a params
+Note: This api takes a number as a params
 
 ## Components functionality
 
